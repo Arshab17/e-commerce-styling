@@ -1,0 +1,150 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Prompt:wght@300;500&display=swap');
+
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background:transparent;
+    min-width: 160px;
+    /* box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.2); */
+   
+    padding: 12px 16px;
+    z-index: 1;
+    cursor: pointer;
+  }
+.dropdown-menu a{
+   color: black;
+   padding: 12px 16px;
+   display: block;
+   
+  }
+   .dropdown-menu a:hover{
+   background: slategray;
+
+  } 
+ 
+.dropdown:hover .dropdown-menu{
+      display: block;
+    }
+body,header,footer{
+   overflow-x: hidden;
+   font-family: 'Dosis',sans-serif;
+}
+
+/* .search-bar{
+margin-left:50vmin;
+width: 50vmin;
+} */
+/* nav.nav-link:hover{
+   color: burlywood;
+} */
+
+*{
+   box-sizing: border-box;
+}
+ .background-img{
+background-size: cover; 
+background-image: url("https://cdn.shopify.com/s/files/1/1300/6871/files/banner1_a114cdbe-b4c0-43e0-a23f-30013cc41565_2800x.jpg?v=1663696156");
+height:65vmin;
+width: 100%;
+ }
+
+.sec-1-items{
+  text-align: center;
+}
+.sec-1-button{
+   width: 35vh;
+   background-color: transparent;
+   color:#f9f9f9;
+   font-size: 2rem;
+   font-weight: 700;
+   border:whitesmoke;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.sec-1-txt{
+   letter-spacing: 1rem;
+   color: #f9f9f9;
+   font-size: 2rem;
+   font-weight: 400;
+}
+
+ 
+ .sec-1-button:hover {
+   
+   border: 2px solid black;
+   background-color: transparent;
+ }
+ .card{
+ 
+ }
+ .products.card {
+
+
+
+ 
+}
+.card-text{
+   font-size: 0.8rem;
+}
+.card-button{
+   color: whitesmoke;
+background-color:black ; 
+  
+}
+.card-button:hover{
+   background-color:cadetblue;
+   
+}
+
+.c1{
+   height: 500px;
+   /* background-image: url(https://storage.covet.pics/postassets/13000505/7b148b80f94012930e5812aaa53308f2);
+   background-size: cover; */
+}
+.c2{
+   height: 500px;
+   /* background-image: url(https://storage.covet.pics/posts/18212958/standard_resolution/3b6140db555ea45bc9ac38a7dc10670e);
+   background-size:cover;
+   background-repeat: no-repeat; */
+}
+.c3{
+   height: 500px;
+   /* background-image: url(https://storage.covet.pics/postassets/13041328/8720afa66518b4821152da1950257586); */
+   /* background-size: cover; */
+}
+.c4{
+   height: 500px;
+   /* background-image: url(https://storage.covet.pics/postassets/12994362/8d28816aaf888df449e2bc2bb43e1711);
+   background-size: cover; */
+}
+.c5{
+   height: 500px;
+   /* background-image: url(https://storage.covet.pics/postassets/12951961/6fc5292ec44f2ebf9593082a03d719be);
+   background-size:cover;
+   background-repeat: no-repeat; */
+}
+.c6{
+   height: 500px;
+   /* background-image: url(https://storage.covet.pics/postassets/12944868/6922eceb7ec5f6b0761a4e9b3208be20);
+   background-size: cover; */
+}
+.footer-txt{
+   padding-right: 1.5vmin;
+   color: whitesmoke;
+   letter-spacing: 1px;
+}
+footer input{
+   border: none!important;
+}
+footer input::placeholder{
+  
+   color:dimgray;
+}
+footer .input-group .input-group-text{
+   background-color:#a0ed25;
+   border:none;
+}
+
